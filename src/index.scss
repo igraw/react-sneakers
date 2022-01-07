@@ -34,15 +34,15 @@ header{
     margin: 0;
   }
 }
-.button {
-  background:  #FFFFFF;
-  border: 1px solid #F2F2F2;
-  box-sizing:  border-box;
-  border-radius: 8px;
-  height: 32px;
-  height: 32px;
-  cursor: pointer;
-}
+// .button {
+//   background:  #FFFFFF;
+//   border: 1px solid #F2F2F2;
+//   box-sizing:  border-box;
+//   border-radius: 8px;
+//   height: 32px;
+//   height: 32px;
+//   cursor: pointer;
+// }
 .search-block{
   border: 1px solid #f3f3f3;
   border-radius:  10px;
@@ -55,9 +55,6 @@ header{
     width: 200px;
   }
 }
-.plus {
-  cursor: pointer;
-}
 
 // &&
 .overlay {
@@ -68,8 +65,8 @@ header{
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
   z-index: 2;
-  visibility: hidden;
-  opacity: 0;
+  // visibility: hidden;
+  // opacity: 1;
   transition: opacity 0.1s ease-out, visibility 0.1s ease-out;
   overflow: hidden;
 }
